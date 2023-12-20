@@ -1,0 +1,14 @@
+// .devcontainer/devcontainer.json
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "extensions": [
+        "ms-azuretools.vscode-docker"
+    ],
+    "forwardPorts": [
+        3306
+    ],
+    "postCreateCommand": "docker-compose up -d",
+    "settings": {
+        "terminal.integrated.shell.linux": null
+    }
+}

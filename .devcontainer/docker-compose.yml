@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: 8810620696Vi@
+      MYSQL_DATABASE: face_recognition
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 8849846927Vi@
+    ports:
+      - "3306:3306"
